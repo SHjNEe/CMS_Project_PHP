@@ -1,10 +1,10 @@
 <?php
-include "../includes/db.php";
-include "includes/header.php";
+include "admin_header.php";
+include  "../includes/db.php";
 ?>
 <div id="wrapper">
     <?
-    include "includes/navigation.php";
+    include "includes/admin_navigation.php";
 
     ?>
         <div id="page-wrapper">
@@ -31,5 +31,5 @@ include "includes/header.php";
 </div>
 
 <?php
-include "includes/footer.php";
+include "includes/admin_footer.php";
 ?>
